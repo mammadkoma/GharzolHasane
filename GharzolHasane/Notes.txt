@@ -1,0 +1,13 @@
+﻿enable clr :
+use GharzolHasane
+EXEC sp_configure 'clr enabled', 1
+RECONFIGURE
+ALTER DATABASE GharzolHasane SET TRUSTWORTHY ON;
+EXEC sp_changedbowner 'sa'
+
+devexpress grid themes : 
+https://docs.devexpress.com/AspNet/6655/common-concepts/appearance-customization-theming/available-themes#office2010silver
+Aqua-BlackGlass-DevEx-GlassMetropolis-MetropolisBlue-Office2003Blue
+Office2003Olive-Office2003Silver-Office2010Black-Office2010Blue-Office2010Silver-PlasticBlue
+RedWine-SoftOrange-Youthful-iOS-Material-MaterialCompact-Moderno-Office365-Mulberry
+
